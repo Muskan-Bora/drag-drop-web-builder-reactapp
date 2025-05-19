@@ -4,18 +4,21 @@
 👉 [Click here to view the live app](https://drag-drop-webapp.netlify.app/)
 
 ## Project Overview
-This project is a **Drag-and-Drop Website Builder** built as a prototype to transform the traditional form-based website creation experience into an intuitive and interactive interface.
+This prototype implements a click-to-add interface inspired by the drag-and-drop concept. Users can add elements (Text, Image, Button) to a canvas by clicking them in the sidebar. Once on the canvas, clicking an element opens a configuration panel to modify its properties via form inputs.
+
+This approach maintains the original form-based logic of the platform while introducing an interactive layout-building experience.
 
 ## Objective
 The goal was to develop a **drag-and-drop interface** that allows users to:
-- Drag and position components (text, images, buttons) on a canvas.
-- Edit each element's properties using form-based inputs.
+- click-to-add components (text, images, buttons) on a canvas.
+- Provide a form-based configuration panel for editing each element's properties.
 - Maintain responsive design for different screen sizes.
 
 ## Features
-- **Live Element Property Editing** via forms (text content, color, etc.)
-- **Responsive Design** – Works well on desktop and mobile
-- Built using **React** and **Vite** for a fast and modern development setup
+ - Click-to-Add Elements (Text, Image, Button)
+ - Form-Based Configuration Panel for each selected element
+ - Responsive Design across desktop and mobile
+ - Reusable Components and clean code structure
 
 ## Architecture & Folder Structure
 | Tool/Library      | Purpose                                       |
@@ -29,23 +32,21 @@ The goal was to develop a **drag-and-drop interface** that allows users to:
 
 ## Key Focus Areas
 1. User Experience
-- Smooth and intuitive drag-and-drop interface
-- Real-time updates on element positioning and properties
+Smooth and intuitive interaction
+Easy to add and configure components
 
 2. Customization
-- Sidebar provides options to update content and styles of each element
+Sidebar form allows text, image, and button edits
 
 3. Responsiveness
-- Flexible layout and Tailwind classes ensure mobile-friendliness
+Layout adjusts across screen sizes using custom CSS
 
 4. Scalability
-- Modular code structure for easy expansion (e.g., new components or templates)
+Ready for future enhancements (drag-and-drop, more templates)
 
 5. Code Quality
-- Clean folder structure
-- Reusable components
-- Descriptive naming conventions
+Clean structure, reusable components, and clear naming
 
 ----
 Conclusion
-This prototype successfully demonstrates how a form-based website builder can evolve into a drag-and-drop platform while maintaining form-based customization. It is scalable, user-friendly, and designed for real-world implementation.
+This mini project demonstrates how a form-based builder can evolve into an interactive interface using modern React practices. While it currently uses click-to-add, it’s built with extensibility in mind, making it easy to integrate full drag-and-drop support in the future.

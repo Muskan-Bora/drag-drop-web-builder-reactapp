@@ -1,12 +1,51 @@
-# React + Vite
+# Drag-and-Drop Website Builder - Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Live Demo
+👉 [Click here to view the live app](https://drag-drop-webapp.netlify.app/)
 
-Currently, two official plugins are available:
+## Project Overview
+This project is a **Drag-and-Drop Website Builder** built as a prototype to transform the traditional form-based website creation experience into an intuitive and interactive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objective
+The goal was to develop a **drag-and-drop interface** that allows users to:
+- Drag and position components (text, images, buttons) on a canvas.
+- Edit each element's properties using form-based inputs.
+- Maintain responsive design for different screen sizes.
 
-## Expanding the ESLint configuration
+## Features
+- **Live Element Property Editing** via forms (text content, color, etc.)
+- **Responsive Design** – Works well on desktop and mobile
+- Built using **React** and **Vite** for a fast and modern development setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Architecture & Folder Structure
+| Tool/Library      | Purpose                                       |
+|-------------------|-----------------------------------------------|
+| React             | UI framework                                  |
+| Vite              | Build tool for fast development               |
+| App.css           | Custom CSS for styling the entire app         |
+| Font Awesome      | Icons used for UI elements                    |
+| Netlify           | Hosting & deployment platform                 |
+| Git & GitHub      | Version control and project hosting           |
+
+## Key Focus Areas
+1. User Experience
+- Smooth and intuitive drag-and-drop interface
+- Real-time updates on element positioning and properties
+
+2. Customization
+- Sidebar provides options to update content and styles of each element
+
+3. Responsiveness
+- Flexible layout and Tailwind classes ensure mobile-friendliness
+
+4. Scalability
+- Modular code structure for easy expansion (e.g., new components or templates)
+
+5. Code Quality
+- Clean folder structure
+- Reusable components
+- Descriptive naming conventions
+
+----
+Conclusion
+This prototype successfully demonstrates how a form-based website builder can evolve into a drag-and-drop platform while maintaining form-based customization. It is scalable, user-friendly, and designed for real-world implementation.
